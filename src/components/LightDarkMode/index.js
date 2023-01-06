@@ -17,11 +17,10 @@ class LightDarkMode extends Component {
         const buttonText = isDarkMode ? 'Light Mode' : 'Dark Mode'
         return (
             <div className="bg-container">
-                <div className={`container ${anotherclassName}`}>
+                <div className={`container ${anotherClassName}`}>
                     <h1 className="heading">Click to Change Mode</h1>
                     <button className="button" 
-                    onClick={this.onClickButton}
-                    className="button">
+                    onClick={this.onClickButton} >
                     {buttonText}
                     </button>
                 </div>
